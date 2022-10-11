@@ -1,31 +1,22 @@
 {
-  "name": "shortly",
+  "name": "boardcamp",
   "version": "1.0.0",
-  "type": "module",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node ./src/index",
+    "dev": "nodemon ./src/index"
   },
-  "keywords": [
-    "driven",
-    "t5"
-  ],
-  "author": "fsrocha-dev",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.16"
-  },
   "dependencies": {
-    "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "heroku-ssl-redirect": "^0.1.1",
     "joi": "^17.6.0",
-    "nanoid": "^3.3.4",
-    "pg": "^8.7.3",
-    "uuid": "^8.3.2"
+    "nodemon": "^2.0.19",
+    "pg": "^8.7.3"
   }
 }
